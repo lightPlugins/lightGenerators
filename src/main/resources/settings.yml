@@ -1,0 +1,58 @@
+version: 1.0
+settings:
+  # Debug Messages for the log
+  debug: true
+  # Enable pin verify in these worlds
+  worlds:
+    - 'world'
+    - 'world_nether'
+    - 'world_the_end'
+  # If the player has this permission, he is excluded from the pin entry
+  excludePermission: 'lightpin.exclude'
+  # The timer is defined here as to when the pin should be entered
+  # All numbers are in minutes
+  # The Timer will trigger if the players join or switch the Server/World
+  timer:
+    min: 40
+    max: 130
+  # How long does the player has time to enter the pin in seconds
+  timeToEntry: 60
+  pinFormat:
+    # The amount of numbers for the random pin
+    #
+    # example: 6 -> 577498 or 3 -> 152
+    #
+    numberOfDigits: 6
+  # You can decide what happen, if the player is not entering the pin in the given time
+  #
+  # KICK - means the player will kick from the server
+  # COMMAND - means lightpin will execute a console command
+  #
+  action:
+    type: KICK
+    command: ''
+    kickMessage: |-
+      &ctest \n
+      &etest2 \n
+  # The title that comes when the player is asked to enter the pin.
+  #
+  # #pin# is the number placeholder
+  #
+  titles:
+    upperLine: '&cPlease enter the Pin'
+    lowerLine: '&e&l#pin#'
+  # Here you can specifier some sounds
+  sounds:
+    enable: true
+    onAsking:
+      sound: 'ITEM_GOAT_HORN_SOUND_1'
+      volume: 1.0
+      pitch: 0.7
+    onFailed:
+      sound: 'BLOCK_ANVIL_PLACE'
+      volume: 1.0
+      pitch: 0.6
+    onSuccess:
+      sound: 'ENTITY_PLAYER_LEVELUP'
+      volume: 1.0
+      pitch: 1.8

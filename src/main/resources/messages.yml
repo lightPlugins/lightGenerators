@@ -1,0 +1,8 @@
+prefix: '#ffdc73&l&olight&7Pin &8●⏺ &7'
+noPermission: '&cYou dont have permission to execute this command &7!'
+wrongCommand: '&cThis command does not exist. Maybe try /pin <CodeFromTitle> &7!'
+reload: '&7The config was &asuccessfully &7reloaded.'
+notChecked: '&7You are currently not being checked for activity.'
+onAsking: '&cWe are checking if you are currently active. &cIf you do not see a PIN, enter #ffdc73/pin &cTo confirm your activity, enter #ffdc73/pin <displayed PIN> &4Otherwise, you will be disconnected from the network in &c60 &4seconds'
+onFailing: '&4This was the wrong pin. Try again! &cIf you do not see a PIN, enter #ffdc73/pin &4Otherwise, you will be disconnected from the network'
+onSuccess: '#ffdc73▪ &7Thank you. You have entered the &acorrect &7PIN.'

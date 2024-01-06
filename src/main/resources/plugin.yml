@@ -1,0 +1,12 @@
+name: lightPin
+author: lightPlugins
+version: 1.0.0
+main: de.lightplugins.pin.Pin
+api-version: 1.17
+depend: []
+softdepend: []
+loadbefore: []
+commands:
+  pin:
+    description: The root command for user and admin related things
+    aliases: []
