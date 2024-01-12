@@ -10,3 +10,6 @@ commands:
   pin:
     description: The root command for user and admin related things
     aliases: []
+  test:
+    description: The root command for user and admin related things
+    aliases: []

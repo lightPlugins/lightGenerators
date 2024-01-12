@@ -56,7 +56,7 @@ public class PinEventHandler implements Listener {
             return;
         }
 
-        Pin.util.sendDebug("This player is already in pinEntry. Something is not working correctly");
+        Pin.util.sendDebug("This player is already in pinEntry. Maybe he just switched the world");
     }
 
     private List<String> configWorlds() {

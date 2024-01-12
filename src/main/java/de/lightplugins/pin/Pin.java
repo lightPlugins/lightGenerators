@@ -57,7 +57,6 @@ public class Pin extends JavaPlugin {
 
         PinHandler pinHandler = new PinHandler();
         pinHandler.startGlobalTimer();
-
     }
 
     public void onDisable() {

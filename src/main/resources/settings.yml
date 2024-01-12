@@ -1,6 +1,6 @@
 version: 1.0
 settings:
-  # Debug Messages for the log
+  # Debug Messages for the log. Enable this feature when I ask you to
   debug: true
   # Enable pin verify in these worlds
   worlds:
